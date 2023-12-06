@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    /* Source: 071 at https://webgradients.com/*/
+}
+
+.calculator-container {
+    box-shadow: 0px 5px 5px 5px #222222;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.display {
+    width: 300px;
+    height: 100px;
+    background: #2C2C2B;
+    color: #E7E7E7;
+    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 235px;
+    overflow: hidden;
+    padding: 0 10px 5px 10px;
+    overflow-wrap: anywhere
+}
+
+.buttons-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-auto-flow: row;
+    width: 235px;
+    height: 295px;
+    background: #2D2D2C;
+}
+
+.zero { grid-area: 5 / 1 / 6 / 3; }
+
+.decimal { grid-area: 5 / 3 / 6 / 4; }
+
+.equals { grid-area: 5 / 4 / 6 / 5}
+
+.one { grid-area: 4 / 1 / 5 / 2 }
+
+.two { grid-area: 4 / 2 / 5 / 3 }
+
+.three { grid-area: 4 / 3 / 5 / 4 }
+
+.plus { grid-area: 4 / 4 / 5 / 5 }
+
+.four { grid-area: 3 / 1 / 4 / 2 }
+
+.five { grid-area: 3 / 2 / 4 / 3 }
+
+.six { grid-area: 3 / 3 / 4 / 4 }
+
+.minus { grid-area: 3 / 4 / 4 / 5 }
+
+.seven { grid-area: 2 / 1 / 3 / 2 }
+
+.eight { grid-area: 2 / 2 / 3 / 3 }
+
+.nine { grid-area: 2 / 3 / 3 / 4 }
+
+.times { grid-area: 2 / 4 / 3 / 5 }
+
+.AC { grid-area: 1 / 1 / 2 / 2 }
+
+.clear { grid-area: 1 / 1 / 2 / 2 }
+
+.negative { grid-area: 1 / 2 / 2 / 3 }
+
+.percent { grid-area: 1 / 3 / 2 / 4 }
+
+.divide { grid-area: 1 / 4 / 2 / 5 }
+
+button {
+    color: #E7E7E7;
+    font-size: 22px; 
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.operation-button:hover, .equals:hover {
+    background: #EF8F0B
+}
+
+.operation-button:active, .equals:active {
+    background: #C97C01
+}
+
+button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.number-button, .decimal {
+    background: #60605F;
+}
+
+.number-button:hover, .decimal:hover {
+    background: #656561
+}
+
+.number-button:active, .decimal:active {
+    background: #AEADAC
+}
+
+.operation-button, .equals {
+    background: #FF9F0B
+}
+
+.clear, .negative, .percent {
+    background: #414140   
+}
+
+.clear:hover, .negative:hover, .percent:hover {
+    background: #444542 
+}
+
+.clear:active, .negative:active, .percent:active {
+    background: #60605F   
+}
+
+.highlight {
+    border: 1px solid black ;
+}

@@ -1,0 +1,30 @@
+If any of the conditions for this task are true (conditionOne, conditionTwo, etc.), it means the user is either:
+        
+        - starting a calculation with no previous values of any sort entered, and they are 
+          beginning to input their first number. 
+        
+        - or they are inputting a number for a calculation already in progress. 
+        
+For example, conditionOne is true if all of the arrays of currentCalc are empty and the operation is undefined, meaning the user hasn't entered anything yet (or has cleared all previous entries). 
+
+In any case, if the user has clicked a number button and any of these conditions is the case, then it can be assumed that the user is trying to enter a digit for the number they're currently starting or continuing to create. 
+
+The state setting function you write for task 1 will update the currentCalc state's string- and array-based representation of a number the user is currently trying to input (currentNum) with the number they typing (numFromClick) while saving other values the calculator needs, like the operator and the previous number, if there are any. 
+
+For example, let's say the user has only typed the digits "1", "2" and "3" so far. On the virtual calculator screen, the user will see 12, and the currentCalc state will look like this: 
+
+    {
+        currentNum: ["1", "2"],
+        previousNum: [],
+        operation: undefined,
+        result: []
+    }
+    
+If the user now types "3", the screen will show 123, because the state will be updated as follows:
+
+    {
+        currentNum: ["1", "2", "3"],
+        previousNum: [],
+        operation: undefined,
+        result: []
+    }

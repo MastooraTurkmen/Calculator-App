@@ -1,0 +1,3 @@
+Familiarize yourself with the currentCalc state. Look at the INITIAL_State and/or console.log currentCalc to understand the structure of the state. This will give you a better idea of how it needs to be updated, in accordance with the instructions for each task. 
+
+You could also try manually adding some items to the state, like I do in the recording. 

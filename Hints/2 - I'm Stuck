@@ -1,0 +1,37 @@
+Here's one of the state setting functions from later on in the code:
+     
+                 setCurrentCalc(prevCalc => ({
+        			    currentNum: [],
+        			    previousNum: prevCalc.currentNum,
+        			    operation: opFromClick,
+        			    result: []
+        		    }))
+                                     
+In other words, this is saying update the currentCalc state as follows: 
+            
+                a. The value of currentNum should be an empty array. 
+                
+                b. The value of previousNum should be the value of the currentNum of the previous 
+                   version of the state. 
+                
+                c. The value of operation should be opFromClick (a variable defined near the top of 
+                   the handleClick function).
+                
+                d. The value of result should be an empty array.
+    
+Here's another example: 
+
+                setCurrentCalc(prevCalc => ({
+        			    ...prevCalc,
+        			    operation: opFromClick
+        		}))
+                
+This is saying update the currentCalc state as follows:   
+                
+                a. "operation" should have the value opFromClick. 
+                
+                b. all of the properties from the previous state should be preserved. 
+
+You can use these examples as analogies for writing your code for the tasks, although you will have to make adjustments to follow the instructions. 
+ 
+    

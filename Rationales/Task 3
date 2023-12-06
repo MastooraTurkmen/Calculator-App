@@ -1,0 +1,1 @@
+            This condition happens if a user types a sequence such as 1 + 2 + . At this moment, there is a result (3) and an operation already typed and stored (+). If the user now starts typing another number, the app assumes the user wants to add the new number to the result, which requires some reshuffling.   

@@ -1,0 +1,23 @@
+The condition being tested here is conditionFive, where the currentNum, previousNum, and result arrays all have entires, and operation is defined.
+
+This condition is only true if the user has already completed a calculation. The state setting function you write for this task will reset the currentCalc state while also beginning a new number for a fresh calculation. 
+
+For example, let's say the user has just completed the calculation 15 + 25 by typing "1", "5", "+", "2", "5", "=". The currentCalc state will be as follows: 
+
+    {
+        currentNum: ["2", "5"],
+        previousNum: ["1, "5"],
+        operation: "+",
+        result: ["4", "0]
+    }
+    
+If the user now types "7", it can be assumed they want to start a new calculation, so the digit "7" should be recorded as currentNum and all of the other properties should be re-initialized, like so: 
+
+    {
+        currentNum: ["7"],
+        previousNum: [],
+        operation: undefined,
+        result: []
+    }
+
+Using the INITIAL_STATE variable just provides us with a shortcut for doing this. This way, we don't have to reinitialize the properties manually. 

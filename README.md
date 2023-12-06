@@ -15,7 +15,11 @@ $ pnpm install
 $ pnpm run dev
 ```
 
+Head over to https://vitejs.dev/ to learn more about using vite
+
 ## For cloning the project 🪛
 
+```
+# Clone this repository
 
-Head over to https://vitejs.dev/ to learn more about using vite
+```

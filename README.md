@@ -7,7 +7,12 @@ Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complai
 
 ```
 $ npm install
-$ npm start
-````
+$ npm run dev
+```
+
+```
+$ pnpm install
+$ pnpm run dev
+```
 
 Head over to https://vitejs.dev/ to learn more about using vite

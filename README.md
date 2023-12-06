@@ -1,4 +1,4 @@
-# cobbf4b7bbc3f6e75cb31d7d2
+# REACT PROJECT
 
 Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
 

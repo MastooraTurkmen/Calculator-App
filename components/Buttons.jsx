@@ -70,8 +70,6 @@ export default function Buttons({ handleClick, buttonData }) {
     </button>
   ))
 
-//Would it have been easier to just manually create all of the buttons? Yes, probably! Why'd I do it this way? Well, I started doing it this way, and then this kicked in: https://thedecisionlab.com/biases/the-sunk-cost-fallacy 
-
   return (
     <div className="buttons-container">
       {numberButtons}

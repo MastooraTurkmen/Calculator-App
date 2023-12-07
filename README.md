@@ -1,5 +1,6 @@
 # Calculater App
 
+A very simple **_Calculater App_** which you can solve your Mathematical questions and daily taks with it :)
 
 ![Alt text](image.png)
 ![Alt text](image-1.png)

@@ -56,6 +56,7 @@ $ cd calculator-app
 5. Then write your project name and select it.
 6. After selecting here you can see that the project **_Review configuration for Calculator-App_** and then select the **_Deploy Calculator-App_** Button.
   + ![Alt text](image.png)
+  + ![Alt text](image-1.png)
 7. Now your project is Live.
 
 # React + Vite

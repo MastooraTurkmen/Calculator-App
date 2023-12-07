@@ -9,6 +9,7 @@ A very simple **_Calculater App_** which you can solve your Mathematical questio
 ## Launguage and Tools are used
 
 + [HTML](https://github.com/topics/html)
++ [CSS](https://github.com/topics/css)
 + [React](https://github.com/topics/react)
 
 

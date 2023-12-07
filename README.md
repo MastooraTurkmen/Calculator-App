@@ -38,10 +38,10 @@ Head over to https://vitejs.dev/ to learn more about using vite
 
 ```
 # Clone this repository
-$ gh repo clone MastooraTurkmen/React-Project
+$ gh repo clone MastooraTurkmen/Calculator-App
 
 # Go inside the repository
-$ cd react-project
+$ cd calculator-app
 ```
 
 ------

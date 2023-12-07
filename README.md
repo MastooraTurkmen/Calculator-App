@@ -6,12 +6,15 @@ A very simple **_Calculater App_** which you can solve your Mathematical questio
 ![Alt text](./images/image-1.png)
 
 
-## Launguage and Tools are used
+## Launguages and Tools are used
 
-+ [HTML](https://github.com/topics/html)
-+ [CSS](https://github.com/topics/css)
-+ [React](https://github.com/topics/react)
+1. **Launguages**
+    + [HTML](https://github.com/topics/html)
+    + [CSS](https://github.com/topics/css)
+    + [React](https://github.com/topics/react)
+    + [JavaScript](https://github.com/topics/javascript)
 
+2. **Tools** 
 
 
 ## Before you Begin 🛠 🔨

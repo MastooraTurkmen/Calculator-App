@@ -8,7 +8,8 @@ A very simple **_Calculater App_** which you can solve your Mathematical questio
 
 ## Launguage and Tools are used
 
-+ [React]("https://github.com/topics/react")
++ [HTML](https://github.com/topics/html)
++ [React](https://github.com/topics/react)
 
 
 

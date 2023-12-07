@@ -2,6 +2,7 @@
 
 Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
 
+![Alt text](image.png)
 
 ## Before you Begin 🛠 🔨
 

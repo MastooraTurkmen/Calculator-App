@@ -15,6 +15,7 @@ A very simple **_Calculater App_** which you can solve your Mathematical questio
     + [JavaScript](https://github.com/topics/javascript)
 
 2. **Tools** 
+    + [Chrome](https://github.com/topics/chrome)
 
 
 ## Before you Begin 🛠 🔨

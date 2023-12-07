@@ -5,6 +5,13 @@ A very simple **_Calculater App_** which you can solve your Mathematical questio
 ![Alt text](./images/image.png)
 ![Alt text](./images/image-1.png)
 
+
+## Launguage and Tools are used
+
++ [React]("https://github.com/topics/react")
+
+
+
 ## Before you Begin 🛠 🔨
 
 ```

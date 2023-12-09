@@ -1,6 +1,6 @@
 # Calculater App
 
-A very simple **_Calculater App_** which you can solve your Mathematical questions and daily taks with it :)
+A very simple **_Calculater App_** which you can solve your Mathematical questions and daily tasks with it :)
 
 https://a-simple-calculator-site.netlify.app/
 
@@ -8,9 +8,9 @@ https://a-simple-calculator-site.netlify.app/
 ![Alt text](./images/image-1.png)
 
 
-## Launguages and Tools are used
+## Languages and Tools are used
 
-1. **Launguages**
+1. **Languages**
     + [HTML](https://github.com/topics/html)
     + [CSS](https://github.com/topics/css)
     + [React](https://github.com/topics/react)
@@ -52,9 +52,9 @@ $ cd calculator-app
 
 ## Deployment📥
 
-1. How to deploy our project to netlify site?
+1. How to deploy our project to the Netlify site?
 2. I use [Netlify App](https://app.netlify.com/) for deploying my projects.
-3. Go to Netlify site and select Add a new site.
+3. Go to the Netlify site and select Add a new site.
 4. From there select **_Deploy with Github_**.
 5. Then write your project name and select it.
 6. After selecting here you can see that the project **_Review configuration for Calculator-App_** and then select the **_Deploy Calculator-App_** Button.

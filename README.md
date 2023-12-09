@@ -1,6 +1,6 @@
 # Calculater App
 
-A very simple **_Calculater App_** which you can solve your Mathematical questions and daily tasks with it :)
+A very simple **_Calculater App_** which you can solve your Mathematical questions and daily tasks with :)
 
 https://a-simple-calculator-site.netlify.app/
 
